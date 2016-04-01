@@ -102,7 +102,7 @@
     <div class="container">
         <div class="row banner">
             <div class="col-md-6 col-sm-6 col-xs-4">
-                <a href="index.html"><img src="http://bananashop.com.vn/public/images/logo2.png" /></a>
+                <a href="index.html"><img src="<?php echo base_url(); ?>public/images/logo2.png" /></a>
             </div>
             <div class="col-md-6">
                 <div class="srchtop">
