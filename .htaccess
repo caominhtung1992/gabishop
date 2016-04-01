@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www\.tungmobile\.com\.vn$ [NC]
+RewriteRule ^(.*)$ http://tungmobile.com.vn/$1 [R=301,L]
+RewriteCond $1 !^(index\.php|public|uploads|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]

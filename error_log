@@ -1,0 +1,16 @@
+[26-Oct-2015 13:59:48 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left_join() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 39
+[26-Oct-2015 13:59:49 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left_join() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 39
+[26-Oct-2015 13:59:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left_join() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 39
+[26-Oct-2015 13:59:52 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left_join() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 39
+[26-Oct-2015 13:59:56 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left_join() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 39
+[26-Oct-2015 14:00:17 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left_join() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 39
+[26-Oct-2015 14:00:22 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left_join() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 39
+[26-Oct-2015 14:00:44 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left_join() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
+[26-Oct-2015 14:00:51 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::ljoin() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
+[26-Oct-2015 14:00:52 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::ljoin() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
+[26-Oct-2015 14:00:52 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::ljoin() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
+[26-Oct-2015 14:00:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::ljoin() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
+[26-Oct-2015 14:01:00 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::ljoin() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
+[26-Oct-2015 14:01:10 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::ljoin() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
+[26-Oct-2015 14:01:11 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::ljoin() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
+[26-Oct-2015 14:01:41 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined method CI_DB_mysql_driver::left() in /home/rvwokkjr/public_html/application/modules/admin/models/mproduct.php on line 33
