@@ -1,4 +1,4 @@
-<script type="text/javascript">
+<!--script type="text/javascript">
 	$(window).load(function(){
 	  $('.hot_view ul').carouFredSel({
 		auto: {
@@ -42,14 +42,14 @@
 			?>
         </ul>
       </div>
-      <!--viewed_pro-->
+    
       <div class="list_product hot_view" style="overflow:hidden;">
         <h3 class="font16">Sản phẩm được mua nhiều nhất</h3>
         <div class="btn_carousel">
           <div class="btn_prev bg"></div>
           <div class="btn_next bg"> </div>
         </div>
-        <!--btn_carousel-->
+        
         <ul>
           <?php 
 			if(isset($pro_hot) && $pro_hot != NULL){
@@ -95,10 +95,10 @@
 			?>
         </ul>
       </div>
-      <!--hot_view-->
+     
       <div class="clear"></div>
     </div>
-    <!--content_bottom--> 
+     
     <script type="text/javascript">
     $(window).load(function(){
       $('#list_brand ul').carouFredSel({
@@ -128,12 +128,12 @@
           <li><a href=""><img src="<?php echo base_url();?>public/images/lenovo.jpg" alt=""/></a></li>
           <li><a href=""><img src="<?php echo base_url();?>public/images/asus.jpg" alt=""/></a></li>
           <li><a href=""><img src="<?php echo base_url();?>public/images/dell.jpg" alt=""/></a></li>
-          <li><a href=""><img src="<?php echo base_url();?>public/images/hp.jpg" alt=""/></a></li-->
+          <li><a href=""><img src="<?php echo base_url();?>public/images/hp.jpg" alt=""/></a></li>
         </ul>
       </div>
       <div class="btn_next_brand bg"></div>
     </div>
-    <!--list_brand-->
+    
     <div class="clear"></div>
     <div id="footer">
       <div id="footer_top">
@@ -144,11 +144,11 @@
         <a href="<?php echo base_url(); ?>page/cam-ket/114.html">Cam kết</a> 
         <a href="<?php echo base_url(); ?>sitemap.xml">Sitemap</a> 
         <a href="<?php echo base_url(); ?>lien-he.html">Liên hệ</a> </div>
-        <!--nav_footer--> 
+        
       </div>
-      <!--top_footer-->
+     
       <div id="footer_bottom">
-        <div class="l" style="margin-right:5px;"> <a href="<?php echo base_url(); ?>" style="margin-top: 0px;" id="logo_bottom" class=""><img style="max-width: 162px;" src="<?php echo base_url();?>public/images/logo.png" alt="logo" /></a>										        <!--logo_bottom-->
+        <div class="l" style="margin-right:5px;"> <a href="<?php echo base_url(); ?>" style="margin-top: 0px;" id="logo_bottom" class=""><img style="max-width: 162px;" src="<?php echo base_url();?>public/images/logo.png" alt="logo" /></a>										       
           <div class="clear"></div>
           <div class="contact line_height20"> 
             <span class="blue"><strong>Địa chỉ :</strong> 117 Phạm Ngũ Lão - TP. Hải Dương</span><br />
@@ -159,7 +159,7 @@
           <p>Đang Online : <?php echo $online; ?></p>
           <p>Lượt truy cập : <?php echo $access; ?></p>
         </div>
-        <!--l-->
+        
         <div class="l link_bottom" style="background:url(<?php echo base_url();?>public/images/bg_footer_space.jpg) left center no-repeat; padding-left:10px;">
           <h3>Thông tin</h3>
           <ul>
@@ -169,7 +169,7 @@
             <li><a href="<?php echo base_url()."page/chinh-sach-doi-tra-hang/107.html"; ?>">Chính sách đổi trả hàng</a></li>
           </ul>
         </div>
-        <!--l-->
+        
         <div class="l link_bottom">
           <h3>Hỗ trợ khách hàng</h3>
           <ul>
@@ -178,7 +178,7 @@
             <li><a href="<?php echo base_url()."page/cac-hinh-thuc-mua-hang/111.html"; ?>">Các hình thức mua hàng</a></li>
           </ul>
         </div>
-        <!--l-->
+        
         <div class="r" style="width:331px;background:url(<?php echo base_url();?>public/images/bg_footer_space.jpg) left center no-repeat; padding-left:10px;">
           <div id="connect_us">
             <h4>Kết nối với Tung Mobile</h4>
@@ -192,18 +192,18 @@
               <li><i class="bg icon_listbank"></i> <a href="javascript:void(0)">Chuyển khoản qua Ngân hàng</a> <i class="bg icon_chuyenkhoan"></i></li>
             </ul>
           </div>
-          <!--pay_accept-->
+          
           <div class="clear"></div>
           <div id="news_letter" class="bg">
             <input type="text" name="" id="email_newsletter" onfocus="this.value=''" class="cssText" value="Nhập email nhận tin KM" />
             <a href="javascript:subscribe_newsletter()" class="button">Gửi</a> </div>
-          <!--news_letter--> 
+          
         </div>
-        <!--l--> 
+        
       </div>
-      <!--footer_bottom--> 
+      
     </div>
-    <!--footer-->
+    
     <div class="clear"></div>
     <div class="space2"></div>
     <script type="text/javascript">
@@ -262,4 +262,53 @@
     });
   });
 </script>
-<div id="bttop" title="Lên đầu trang" style=""><img src="<?php echo base_url();?>public/images/scroll.png" alt="lên đầu trang" /></div>
+<div id="bttop" title="Lên đầu trang" style=""><img src="<?php echo base_url();?>public/images/scroll.png" alt="lên đầu trang" /></div-->
+
+<footer>
+        <div class="container">
+            <div class="footer_info">
+                <div class="row">
+                  <div class="col-md-3">
+                    <h5>Trụ sở</h5>
+                    <ul>
+                      <li><a>Địa chỉ: 102 Nguyễn Phúc Nguyên, P. 9, Q. 3, TP HCM.</a></li>
+                      <li><a>Điện thoại: 0126.779.5050</a></li>
+                      <li><a>Email: Quantri.Bananashop@Gmail.Com</a></li>
+                      <li><a>Mở cửa: 9h30 -21h30 các ngày trong tuần</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h5>Chi nhánh 1</h5>
+                    <ul>
+                        <li><a>Địa chỉ: 189 Phan Đình Phùng, P. 17, Q. Phú Nhuận, TP HCM.</a></li>
+                        <li><a>Điện thoại: 0126.779.5050</a></li>
+                        <li><a>Email: Quantri.Bananashop@Gmail.Com</a></li>
+                        <li><a>Mở cửa: 9h30 -21h30 các ngày trong tuần</a></li>
+                    </ul>
+                  </div>
+                      <div class="col-md-3">
+                        <h5>Chi nhánh 2</h5>
+                        <ul>
+                          <li><a>Địa chỉ: 172 Quán Thánh, Hà Nội</a></li>
+                          <li><a>Điện thoại: 0126.779.5050</a></li>
+                          <li><a>Email: Quantri.Bananashop@Gmail.Com</a></li>
+                          <li><a>Mở cửa: 10h30 -21h00 các ngày trong tuần</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Facebook</h5>
+                         <div id="fb-root"></div>                                
+                         <script>                                    
+                         (function (d, s, id) {                                        
+                          var js, fjs = d.getElementsByTagName(s)[0];                                        
+                          if (d.getElementById(id)) return;                                        
+                          js = d.createElement(s); js.id = id;                                        
+                          js.src = "http://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.3";                                        
+                          fjs.parentNode.insertBefore(js, fjs);                                    }
+                          (document, 'script', 'facebook-jssdk'));                                </script>                                <div class="fb-page" data-href="https://www.facebook.com/bananashopsaigon"                                     data-width="500" data-height="500" data-hide-cover="false" data-show-facepile="false"                                     data-show-posts="false"></div>
+                    <span> Website được thiết kế bởi <a href="#" target="_blank" title="" alt="">Cao Tùng</a> </span>
+                  </div>
+          </div>
+       </div>
+    </div>
+  </footer>

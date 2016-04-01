@@ -1,8 +1,17 @@
+<link href="<?php echo base_url();?>public/styles/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>public/styles/slick.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>public/styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>public/styles/main.css" rel="stylesheet" type="text/css" />
+<link href="<?php echo base_url();?>public/styles/responsive.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo base_url();?>public/styles/style.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo base_url();?>public/scripts/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>public/scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>public/scripts/slick.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>public/scripts/jquery-scrolltofixed-min.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>public/scripts/library.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>public/scripts/common.js"></script>
 <script type="text/javascript" src="<?php echo base_url();?>public/scripts/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url();?>public/scripts/main.js"></script>
 
 <script type="text/javascript">
 	var links = "<?php echo base_url();?>";
@@ -36,3 +45,61 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+$(document).ready(function () {
+    if (window.outerWidth > 769) {
+        //Scroll fix Menu
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 110) {
+                    $('.navbar-default').addClass("fixed");
+                } else {
+                    $('.navbar-default').removeClass("fixed");
+                }
+            });
+        });
+    }
+});
+</script>
+
+    <script src="http://bananashop.com.vn/public/js/bootstrap.min.js"></script>
+    <script src="http://bananashop.com.vn/public/js/slick.min.js"></script>
+    <script src="http://bananashop.com.vn/public/js/jquery-scrolltofixed-min.js"></script>
+    <script src="http://bananashop.com.vn/public/js/main.js"></script> 
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'vi',layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+  }
+</script>
+    <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> <script>
+        (function () {
+			$('#tiengviet').click(function () {
+				var lang = 'Vietnamese';
+				var langg = 'Tiếng Việt';
+				var $frame = $('.goog-te-menu-frame:first');
+				if($frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0)){
+					$frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0).click();
+					$frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0).click();
+				}
+				else{
+					$frame.contents().find('.goog-te-menu2-item span.text:contains('+langg+')').get(0).click();
+					$frame.contents().find('.goog-te-menu2-item span.text:contains('+langg+')').get(0).click();
+				}
+				return false;
+				  })  
+			$('#tienganh').click(function () {
+				var lang = 'English';
+				var langg = 'Tiếng Anh';
+				var $frame = $('.goog-te-menu-frame:first');
+				if($frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0)){
+					$frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0).click();
+					$frame.contents().find('.goog-te-menu2-item span.text:contains('+lang+')').get(0).click();
+				}
+				else{
+					$frame.contents().find('.goog-te-menu2-item span.text:contains('+langg+')').get(0).click();
+					$frame.contents().find('.goog-te-menu2-item span.text:contains('+langg+')').get(0).click();
+				}
+				return false;
+				  })  				  
+        })(jQuery);
+    </script>

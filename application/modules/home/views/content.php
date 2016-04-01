@@ -1,4 +1,4 @@
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<!--meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<?php
 		if($popup['pop_status'] == 1){
 	?>
@@ -99,7 +99,7 @@
     #popup_order{padding: 10px 0px;width: 500px;background: #fff;text-align: left !important;margin: 0px auto;}
     .require{color:#f00;font-weight:bold;}
 	#popupContact div {text-align: inherit;}
-    </style-->
+    </style>
     <?php //} ?>
 	
     
@@ -120,7 +120,7 @@
             </div>
         </div>
     </div>
-    <!--slide--> 
+   
     <div id="deal_home" class="bg"> 
       <div class="price_deal"><strong class="black font18">TIN TỨC</strong>&nbsp;&nbsp;<span class="line_through"></span></div>
       <table>
@@ -145,7 +145,7 @@
         
       </table>
     </div>
-    <!--deal_home-->
+    
     <div class="clear"></div>
     <div id="content"> 
       <div class="title_box_left">
@@ -154,7 +154,7 @@
         	<a style="color:#f00" title="Sản phẩm khuyến mãi" href="<?php echo base_url()."san-pham-khuyen-mai.html"; ?>">Xem tất cả</a>
         </div>
       </div>
-      <!--title_box_left-->
+      
       <div class="clear"></div>
       <div class="list_product khuyenmaitrian border" style="margin-top:-7px; border-top:none;width: 1104px;height: auto;float: left;">
         <div class="clear"></div>
@@ -204,7 +204,7 @@
 			?>
         </ul>
       </div>
-      <!--list_product-->
+      
       <div class="clear"></div>
       <p>&nbsp;</p>
       <div class="list_product border" style="border:none;margin-bottom:5px;"> 
@@ -222,7 +222,7 @@
         	<a style="color:#f00" title="Sáº£n pháº©m má»›i" href="<?php echo base_url()."san-pham-moi.html"; ?>">Xem tất cả</a>
         </div>
       </div>
-      <!--title_box_left-->
+      
       <div class="clear"></div>
       <div class="list_product xt border" style="margin-top:-7px; border-top:none;">
         <div class="clear"></div>
@@ -273,7 +273,7 @@
         </ul>
         <div class="clear"></div>
       </div>
-      <!--list_product-->
+      
       <div class="clear"></div>
       <p>&nbsp;</p>
       <div class="title_box_left title_box_left_2">
@@ -282,7 +282,7 @@
         	<a style="color:#f00" title="Sáº£n pháº©m bÃ¡n cháº¡y" href="<?php echo base_url()."san-pham-ban-chay.html"; ?>">Xem tất cả</a>
         </div>
       </div>
-      <!--title_box_left-->
+    
       <div class="clear"></div>
       <div class="list_product hot border" style="margin-top:-7px; border-top:none;">
         <div class="clear"></div>
@@ -333,7 +333,7 @@
         </ul>
         <div class="clear"></div>
       </div>
-      <!--list_product-->
+     
       <div class="clear"></div>
     </div>
     <div class="clear"></div>
@@ -346,4 +346,152 @@
             }
           }
         ?>
-      </div>
+      </div-->
+
+      <div id="Render-Body" class="container">
+        <div id="slick-slide">
+            <img width="960" height="640" src="http://bananashop.com.vn/public/admin/images/slide-32.jpg" /><img width="960" height="640" src="http://bananashop.com.vn/public/admin/images/slide-12.jpg" /><img width="960" height="640" src="http://bananashop.com.vn/public/admin/images/slide-21.jpg" />        </div>
+
+        <div class="list-product">
+           <div class="break"></div><h3 class="title-rbl-04"><span><a href="http://bananashop.com.vn/quan">Quần</a></span></h3><div class="row">  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/quan-tay-den--7.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana10422797651571204439.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/quan-tay-den--7.html"><p class="name-product">Quần Tây Đen </p></a>
+              <span class="price">400.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/quan-tay--xam-long-soi-8.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana165660742759719269.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/quan-tay--xam-long-soi-8.html"><p class="name-product">Quần Tây  Xám Lông Sói</p></a>
+              <span class="price">520.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/quan-tay-vang-dat-9.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana1588254436441256719.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/quan-tay-vang-dat-9.html"><p class="name-product">Quần Tây Vàng Đất</p></a>
+              <span class="price">520.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/quan-tay-xam-trang-1-10.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana1726111364575587433.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/quan-tay-xam-trang-1-10.html"><p class="name-product">Quần Tây Xám Trắng 1</p></a>
+              <span class="price">580.000 đ</span>
+            </div><a class="box-f" href="http://bananashop.com.vn/quan" style="float: right; margin: 15px;">Xem thêm >></a></div><div class="break"></div><h3 class="title-rbl-04"><span><a href="http://bananashop.com.vn/giay">Giầy</a></span></h3><div class="row">  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/giay-moi-xam-ni--14.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana7401536492100917554.jpg" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/giay-moi-xam-ni--14.html"><p class="name-product">Giày Mọi Xám Nỉ </p></a>
+              <span class="price">1.250.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/giay-moi-den-ni--15.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana1706345421171026839.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/giay-moi-den-ni--15.html"><p class="name-product">Giày Mọi Đen Nỉ </p></a>
+              <span class="price">1.250.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/giay-da-bong-den--16.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana21391818101561433640.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/giay-da-bong-den--16.html"><p class="name-product">Giày da bóng đen </p></a>
+              <span class="price">1.250.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/giay-da-nau--go-bong-17.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana111516621475486069.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/giay-da-nau--go-bong-17.html"><p class="name-product">Giày da nâu  gỗ bóng</p></a>
+              <span class="price">1.250.000 đ</span>
+            </div><a class="box-f" href="http://bananashop.com.vn/giay" style="float: right; margin: 15px;">Xem thêm >></a></div><div class="break"></div><h3 class="title-rbl-04"><span><a href="http://bananashop.com.vn/so-mi">Sơ Mi</a></span></h3><div class="row">  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/so-mi-xanh-lam-sang-mau-25.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana1242165923676779547.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/so-mi-xanh-lam-sang-mau-25.html"><p class="name-product">Sơ mi xanh lam sáng màu</p></a>
+              <span class="price">350.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/so-mi-xanh-bien-sau-26.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana16445506951530913366.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/so-mi-xanh-bien-sau-26.html"><p class="name-product">Sơ mi xanh biển sâu</p></a>
+              <span class="price">350.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/so-mi-trang-truyen-thong--28.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana10217487861272776525.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/so-mi-trang-truyen-thong--28.html"><p class="name-product">Sơ mi trắng truyền thống </p></a>
+              <span class="price">350.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/so-mi-trang-nut-29.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana14120105431912677206.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/so-mi-trang-nut-29.html"><p class="name-product">Sơ mi trắng nút</p></a>
+              <span class="price">350.000 đ</span>
+            </div><a class="box-f" href="http://bananashop.com.vn/so-mi" style="float: right; margin: 15px;">Xem thêm >></a></div><div class="break"></div><h3 class="title-rbl-04"><span><a href="http://bananashop.com.vn/vest">Vest</a></span></h3><div class="row"> <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/vest-den-ca-tinh-39.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana25330645178396139.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/vest-den-ca-tinh-39.html"><p class="name-product">Vest đen cá tính</p></a>
+              <span class="price">950.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/vest-den-reu-phoi-mau-41.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana4936517751649645348.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/vest-den-reu-phoi-mau-41.html"><p class="name-product">Vest Đen Rêu Phối Màu</p></a>
+              <span class="price">950.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/vest--vang-dong-sang-trong-42.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana2434099041765143295.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/vest--vang-dong-sang-trong-42.html"><p class="name-product">Vest  Vàng Đồng Sang Trọng</p></a>
+              <span class="price">950.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/vest-xam-hoa-tiet-duong-thang-43.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana6683618721029422959.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/vest-xam-hoa-tiet-duong-thang-43.html"><p class="name-product">Vest Xám Họa Tiết Đường Thẳng</p></a>
+              <span class="price">950.000 đ</span>
+            </div><a class="box-f" href="http://bananashop.com.vn/vest" style="float: right; margin: 15px;">Xem thêm >></a></div><div class="break"></div><h3 class="title-rbl-04"><span><a href="http://bananashop.com.vn/ao-len-det">Áo len dệt</a></span></h3><div class="row">  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/ao-len-det-vang-ho-phach-1.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana715376325199889362.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/ao-len-det-vang-ho-phach-1.html"><p class="name-product">Áo len dệt Vàng Hổ Phách</p></a>
+              <span class="price">300.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/ao-len-det-xanh-coban-2.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana9627844191783082143.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/ao-len-det-xanh-coban-2.html"><p class="name-product">Áo len dệt xanh Coban</p></a>
+              <span class="price">300.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/ao-len-det-trang-3.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana1216971565828522279.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/ao-len-det-trang-3.html"><p class="name-product">Áo len dệt Trắng</p></a>
+              <span class="price">300.000 đ</span>
+            </div>  <div class="col-md-3 col-sm-4 col-xs-6 item-pd">
+              <a href="http://bananashop.com.vn/ao-len-det-do-sori-4.html">
+                <img src="http://bananashop.com.vn/uploads/title_img/banana220110661996184252.JPG" >
+                <span class="iconnew" title="New">&nbsp;</span>
+              </a>
+              <a href="http://bananashop.com.vn/ao-len-det-do-sori-4.html"><p class="name-product">Áo len dệt Đỏ sơri</p></a>
+              <span class="price">300.000 đ</span>
+            </div><a class="box-f" href="http://bananashop.com.vn/ao-len-det" style="float: right; margin: 15px;">Xem thêm >></a></div>        
+</div>

@@ -1,4 +1,4 @@
-<div id="header"> <a href="<?php echo base_url();?>" id="logo" title="Sửa chữa laotop lấy ngay"><img style="max-width:190px;" src="<?php echo base_url();?>public/images/logo.png" alt="Sửa chữa laotop lấy ngay" /></a>
+<!--div id="header"> <a href="<?php echo base_url();?>" id="logo" title="Sửa chữa laotop lấy ngay"><img style="max-width:190px;" src="<?php echo base_url();?>public/images/logo.png" alt="Sửa chữa laotop lấy ngay" /></a>
       <div class="header_support">
         <ul>
           <li class="bg icon_support"  id="support_online">
@@ -33,7 +33,7 @@
                 </center>
                 </strong></p>
             </div>
-            <!--content_support--> 
+
           </li>
         </ul>
         <p class="red font18_phone"><i class="bg icon_phone"></i>0966.887.444</p>
@@ -51,13 +51,13 @@
         	
         </div>
       </div>
-      <!--header_right--> 
+     
     </div>
-    <!--header-->
+    
     
     <div id="nav">
       <div id="title_cat_left" class="bg"></div>
-      <!--title_cat_left-->
+      
       <div class="l font15" style="color:white; line-height:39px; margin-left:10px;">
         <div id="search" class="bg">
           <form method="get" action="<?php echo base_url()."tim-kiem.html"; ?>" enctype="multipart/form-data">
@@ -65,7 +65,7 @@
             <input type="submit" class="cssSubmit" value="" />
           </form>                        
         </div>
-        <!--search--> 
+        
       </div>
       <a href="<?php echo base_url(); ?>san-pham-khuyen-mai.html" class=" l bg deal_shop"></a> 
       <div id="login_header"> 
@@ -81,7 +81,7 @@
   			}
   		?>
       </div>
-      <!--login_header-->
+      
       
       <div id="cart"  onclick="window.location='<?php echo base_url()."gio-hang.html"; ?>'" style="cursor:pointer;"> <i class="bg icon_cart"></i> <strong style="position: relative;top: -5px;">Giỏ hàng</strong><br />
         <strong class="yellow yellow_yellow"><span id="count_shopping_cart_store">
@@ -93,7 +93,50 @@
 				}
 			?>
         </span> sản phẩm</strong> </div>
-      <!--cart--> 
+       
     </div>
-    <!--nav-->
-    <div class="clear"></div>
+    
+    <div class="clear"></div-->
+
+<header>
+    <div class="container">
+        <div class="row banner">
+            <div class="col-md-6 col-sm-6 col-xs-4">
+                <a href="index.html"><img src="http://bananashop.com.vn/public/images/logo2.png" /></a>
+            </div>
+            <div class="col-md-6">
+                <div class="srchtop">
+                    <form action="http://bananashop.com.vn/tim-kiem" method="post">
+                        <input value="" type="text" id="search" name="search" placeholder="Nhập từ khóa cần tìm..."><a id="submit" class="btn-search"></a>
+                    </form>
+                </div> <div id="google_translate_element" style="float: right; display: none;"></div>
+                <div class="topmenu">
+                    <ul>
+                        <li><a href="http://bananashop.com.vn/gio-hang.html"><span>Giỏ hàng</span></a></li>
+                        <li><a href="http://bananashop.com.vn/huong-dan"><span>Hướng dẫn</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav nav-justified">
+                 <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="http://bananashop.com.vn/quan">Quần</a></li><li><a href="http://bananashop.com.vn/giay">Giầy</a></li><li><a href="http://bananashop.com.vn/so-mi">Sơ Mi</a></li><li><a href="http://bananashop.com.vn/vest">Vest</a></li><li><a href="http://bananashop.com.vn/ao-len-det">Áo len dệt</a></li>                        <li><a href="http://bananashop.com.vn/lien-he">Liên hệ</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>

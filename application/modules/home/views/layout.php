@@ -25,13 +25,10 @@
 <?php $this->load->view("scripts");?>
 </head>
 
-<body>
-<div id="wrap">
-    <div class="wrap_content">
-		<?php $this->load->view("header");?>
-        <?php $this->load->view("content"); ?>
-        <?php $this->load->view("footer"); ?>
-    </div>
+<body style="position: relative; min-height: 100%; top: 0px;">
+	<?php $this->load->view("header");?>
+    <?php $this->load->view("content"); ?>
+    <?php $this->load->view("footer"); ?>
 </div>
 </body>
 </html>
