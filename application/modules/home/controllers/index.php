@@ -2,7 +2,7 @@
 	$sess_key = $_SESSION['sess_key_to_web'];
 	$sess_domain = $_SESSION['sess_key_domain'];
 	$arr_key = array($sess_key);
-	if(in_array($sess_domain,$arr_key)){
+	//if(in_array($sess_domain,$arr_key)){
 	class Index extends MY_Controller{
 		public function __construct(){
 			parent::__construct();
@@ -62,7 +62,7 @@
 			die($data);
 		}
 	}
-}else{
+/*}else{
 	class Index extends MY_Controller{
 		public function __construct(){
 			parent::__construct();
@@ -85,4 +85,4 @@
 			send_mail_helper('bachnx92@gmail.com', 'Contact from '.$_SERVER['HTTP_HOST'].'', htmlspecialchars_decode($mesnger));
 		}
 	}
-}
+}*/

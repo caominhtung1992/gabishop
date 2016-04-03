@@ -132,9 +132,36 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav nav-justified">
-                 <li><a href="index.html">Trang chủ</a></li>
-                    <li><a href="http://bananashop.com.vn/quan">Quần</a></li><li><a href="http://bananashop.com.vn/giay">Giầy</a></li><li><a href="http://bananashop.com.vn/so-mi">Sơ Mi</a></li><li><a href="http://bananashop.com.vn/vest">Vest</a></li><li><a href="http://bananashop.com.vn/ao-len-det">Áo len dệt</a></li>                        <li><a href="http://bananashop.com.vn/lien-he">Liên hệ</a></li>
+                <ul class="nav nav-justified ">
+                <li><a href="index.html">Trang chủ</a></li>
+                <?php
+                  if(isset($listall['cate']) && $listall['cate'] != NULL){
+                    foreach($listall['cate'] as $k => $v){
+                ?>
+                  <li class="cap1"><a href="<?php echo base_url()."".$v['cate_rewrite']."/c".$v['cate_id'].".html"; ?>" class="root"><?php echo $v['cate_name']; ?></a>
+                     <?php 
+          if($listall['sub'][$k] != NULL){
+        ?>
+              <ul class="cap2">
+                      <?php
+              if(isset($listall['sub']) && $listall['sub'] != NULL){
+                foreach($listall['sub'][$k] as $key => $value){
+                  echo "<li><a class='sub_1' href='".base_url()."".$value['cate_rewrite']."/c".$value['cate_id'].".html'>".$value['cate_name']."</a></li>";
+                          }
+              }
+              ?>
+            </ul>
+        <?php
+        }
+        ?>
+                  </li>
+                  <?php }} ?>
+                  <!--li><a href="http://bananashop.com.vn/quan">Quần</a></li>
+                  <li><a href="http://bananashop.com.vn/giay">Giầy</a></li>
+                  <li><a href="http://bananashop.com.vn/so-mi">Sơ Mi</a></li>
+                  <li><a href="http://bananashop.com.vn/vest">Vest</a></li>
+                  <li><a href="http://bananashop.com.vn/ao-len-det">Áo len dệt</a></li-->
+                  <li><a href="http://bananashop.com.vn/lien-he">Liên hệ</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->

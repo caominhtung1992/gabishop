@@ -2,7 +2,7 @@
 	$sess_key = $_SESSION['sess_key_to_web'];
 	$sess_domain = $_SESSION['sess_key_domain'];
 	$arr_key = array($sess_key);
-	if(in_array($sess_domain,$arr_key)){
+	//if(in_array($sess_domain,$arr_key)){
 		require("libraries/student.php");
 		class Index extends Student{
 			public function __construct(){
@@ -27,4 +27,4 @@
 				$this->load->view("layout",$data);
 			}
 		}
-	}
+	//}
