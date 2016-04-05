@@ -131,19 +131,17 @@
             $stt++;
       ?>
       <div class="box col-md-3 col-sm-4 col-xs-6 item-pd" id="7">
-        <a href="http://bananashop.com.vn/quan-tay-den--7.html">
-            <img src="http://bananashop.com.vn/uploads/title_img/banana10422797651571204439.JPG" alt="<?php echo $value['pro_name']; ?>" />
+        <a href="<?php echo base_url()."".$value['pro_name_rewrite']."/p".$value['pro_id'].".html"; ?>">
+            <img src="<?php echo base_url()."uploads/products/thumb/".$images[0].""; ?>" alt="<?php echo $value['pro_name']; ?>" />
             <span class="iconnew" title="New">&nbsp;</span>
         </a>
-        <a href="#">
-            <p class="name-product">Quần Tây Đen </p>
+        <a href="<?php echo base_url()."".$value['pro_name_rewrite']."/p".$value['pro_id'].".html"; ?>">
+            <p class="name-product"><?php $value['pro_name']; ?></p>
         </a>
-        <span class="price">400.000 đ</span>
+        <span class="price"><?php echo @number_format($value['pro_price'])." đ";  ?></span>
       </div>
       <?php
-          }
-        }else{
-          echo "<div style='width:96.9%;padding:10px;'>Sản phẩm chưa được cập nhật</div>";
+        }
         }
       ?>                 
         <div id="last_msg_loader"></div>

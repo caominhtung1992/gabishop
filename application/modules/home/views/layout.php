@@ -29,7 +29,6 @@
 	<?php $this->load->view("header");?>
     <?php $this->load->view("content"); ?>
     <?php $this->load->view("footer"); ?>
-</div>
 </body>
 </html>
 <!-- Powered by Northstar / Website: www.NorthStar.vn -->
