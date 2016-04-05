@@ -20,13 +20,9 @@
 </head>
 
 <body>
-<div id="wrap">
-    <div class="wrap_content">
-		<?php $this->load->view("header");?>
-        <?php $this->load->view("product/all/list_product"); ?>
-        <?php $this->load->view("footer"); ?>
-    </div>
-</div>
+	<?php $this->load->view("header");?>
+    <?php $this->load->view("product/all/list_product"); ?>
+    <?php $this->load->view("footer"); ?>
 </body>
 </html>
 <!-- Powered by Northstar / Website: www.NorthStar.vn -->

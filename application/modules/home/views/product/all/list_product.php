@@ -24,7 +24,7 @@
   vertical-align: middle;
   }
 </style>
-<div class="content_full">
+<!--div class="content_full">
   <?php $this->load->view("column_left"); ?>
   <div class="column_right"> 
     <div id="location"><a href="<?php echo base_url(); ?>" title="Trang chủ">Trang chủ</a> » <a href=""><?php echo $title; ?></a> </div>
@@ -36,19 +36,13 @@
         <div class="r" style="float: left !important;width:100%">
           <div class="paging r" style="float: left !important;margin: 10px 0px auto !important;position: relative;left: 10%;">
           </div>
-          <!--paging-->
+        
           <div id="sort" class="l" style="float: right !important;">
-            <!-- <select onChange="window.location='?sort='+this.value">
-              <option>Sắp xếp theo thứ tự</option>
-              <option value="new">Mới nhất trước</option>
-              <option value="price-asc">Giá tăng dần</option>
-              <option value="price-desc">Giá giảm dần</option>
-            </select> -->
+
           </div>
         </div>
-        <!--r--> 
       </div>
-      <!--title_box_right-->
+      
       <div class="clear"></div>
       <hr size="1" color="#ccc" style="margin:0;">
       <div class="list_product">
@@ -110,15 +104,49 @@
 			}
 		?>
       </div>
-      <!--list_pro-->
+     
       <div class="clear"></div>
       <hr size="1" color="#ccc" style="margin:0;">
       <div class="pagination page-top">
       <div id="pagination" class=""><?php  echo $this->pagination->create_links();?></div>
 		</div>
-      <!--paging--> 
+     
     </div>
-    <!--box_column_right--> 
+    
   </div>
   <?php $this->load->view("column_right"); ?>
-</div>
+</div-->
+
+<div id="Render-Body" class="container">
+  <div class="head-cat">
+      <h1><?php echo $title; ?></h1>
+  </div>
+    <div class="list-product">
+      <div class="row">
+      <?php 
+        if(isset($list_pro) && $list_pro != NULL){
+          $stt = 0;
+          foreach($list_pro as $value){
+            @$images = unserialize($value['pro_images']);
+            $stt++;
+      ?>
+      <div class="box col-md-3 col-sm-4 col-xs-6 item-pd" id="7">
+        <a href="http://bananashop.com.vn/quan-tay-den--7.html">
+            <img src="http://bananashop.com.vn/uploads/title_img/banana10422797651571204439.JPG" alt="<?php echo $value['pro_name']; ?>" />
+            <span class="iconnew" title="New">&nbsp;</span>
+        </a>
+        <a href="#">
+            <p class="name-product">Quần Tây Đen </p>
+        </a>
+        <span class="price">400.000 đ</span>
+      </div>
+      <?php
+          }
+        }else{
+          echo "<div style='width:96.9%;padding:10px;'>Sản phẩm chưa được cập nhật</div>";
+        }
+      ?>                 
+        <div id="last_msg_loader"></div>
+      </div>
+    </div>
+  </div>
