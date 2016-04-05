@@ -55,6 +55,41 @@
 			$this->db->limit(8);
 			return $this->db->get($this->_product)->result_array();
 		}
+		public function list_damnu(){
+			$this->db->where("pro_status","1");
+			$this->db->where("cate_id_parent","41");
+			$this->db->order_by("cate_id","DESC");
+			$this->db->limit(4);
+			return $this->db->get($this->_product)->result_array();
+		}
+		public function list_trungnien(){
+			$this->db->where("pro_status","1");
+			$this->db->where("cate_id_parent","70");
+			$this->db->order_by("cate_id","DESC");
+			$this->db->limit(4);
+			return $this->db->get($this->_product)->result_array();
+		}
+		public function list_caocap(){
+			$this->db->where("pro_status","1");
+			$this->db->where("cate_id_parent","42");
+			$this->db->order_by("cate_id","DESC");
+			$this->db->limit(4);
+			return $this->db->get($this->_product)->result_array();
+		}
+		public function list_men(){
+			$this->db->where("pro_status","1");
+			$this->db->where("cate_id","38");
+			$this->db->order_by("cate_id","DESC");
+			$this->db->limit(4);
+			return $this->db->get($this->_product)->result_array();
+		}
+		public function list_shoes(){
+			$this->db->where("pro_status","1");
+			$this->db->where("cate_id","39");
+			$this->db->order_by("cate_id","DESC");
+			$this->db->limit(4);
+			return $this->db->get($this->_product)->result_array();
+		}
 		public function list_pro_view(){
 			$this->db->where("pro_status","1");
 			$this->db->order_by("pro_view","DESC");

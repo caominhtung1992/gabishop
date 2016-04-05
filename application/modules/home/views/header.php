@@ -112,8 +112,8 @@
                 </div> <div id="google_translate_element" style="float: right; display: none;"></div>
                 <div class="topmenu">
                     <ul>
-                        <li><a href="http://bananashop.com.vn/gio-hang.html"><span>Giỏ hàng</span></a></li>
-                        <li><a href="http://bananashop.com.vn/huong-dan"><span>Hướng dẫn</span></a></li>
+                        <li><a href="<?php echo base_url(); ?>gio-hang"><span>Giỏ hàng</span></a></li>
+                        <li><a href="<?php echo base_url(); ?>huong-dan"><span>Hướng dẫn</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -133,7 +133,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav nav-justified ">
-                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="<?php echo base_url(); ?>">Trang chủ</a></li>
                 <?php
                   if(isset($listall['cate']) && $listall['cate'] != NULL){
                     foreach($listall['cate'] as $k => $v){

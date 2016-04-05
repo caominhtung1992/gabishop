@@ -28,6 +28,11 @@
 			$data['pro_new'] 		= $this->mindex->list_pro_new($get_setup['set_pro_new']);
 			$data['pro_bestsale'] 	= $this->mindex->list_pro_bestsale($get_setup['set_pro_bestsale']);
 			$data['pro_hot'] 		= $this->mindex->list_pro_hot($get_setup['set_pro_hot']);
+			$data['pro_damnu'] 		= $this->mindex->list_damnu();
+			$data['pro_caocap'] 		= $this->mindex->list_caocap();
+			$data['pro_trungnien'] 		= $this->mindex->list_trungnien();
+			$data['pro_men'] 		= $this->mindex->list_men();
+			$data['pro_shoes'] 		= $this->mindex->list_shoes();
 			$data['pro_view'] 		= $this->mindex->list_pro_view();
 			$data['slide']			= $this->mindex->get_listslide('17');
 			$data['slide2']			= $this->mindex->get_listslide('20');

@@ -269,43 +269,38 @@
             <div class="footer_info">
                 <div class="row">
                   <div class="col-md-3">
-                    <h5>Trụ sở</h5>
+                    <h5>Liên Hệ</h5>
                     <ul>
-                      <li><a>Địa chỉ: 102 Nguyễn Phúc Nguyên, P. 9, Q. 3, TP HCM.</a></li>
-                      <li><a>Điện thoại: 0126.779.5050</a></li>
-                      <li><a>Email: Quantri.Bananashop@Gmail.Com</a></li>
-                      <li><a>Mở cửa: 9h30 -21h30 các ngày trong tuần</a></li>
+                        <li><a>Điện thoại: 0167.564.1992</a></li>
+                        <li><a>Email: caominhtung64@Gmail.Com</a></li>
+                        <li><a>skype: Quantri.Bananashop@Gmail.Com</a></li>
+                        <li><a>Mở cửa: 9h30 -21h30 các ngày trong tuần</a></li>
                     </ul>
                   </div>
                   <div class="col-md-3">
-                    <h5>Chi nhánh 1</h5>
+                    <h5>Liên Hệ</h5>
                     <ul>
-                        <li><a>Địa chỉ: 189 Phan Đình Phùng, P. 17, Q. Phú Nhuận, TP HCM.</a></li>
-                        <li><a>Điện thoại: 0126.779.5050</a></li>
-                        <li><a>Email: Quantri.Bananashop@Gmail.Com</a></li>
+                        <li><a>Điện thoại: 0167.564.1992</a></li>
+                        <li><a>Email: caominhtung64@Gmail.Com</a></li>
+                        <li><a>skype: Quantri.Bananashop@Gmail.Com</a></li>
                         <li><a>Mở cửa: 9h30 -21h30 các ngày trong tuần</a></li>
                     </ul>
                   </div>
                       <div class="col-md-3">
-                        <h5>Chi nhánh 2</h5>
-                        <ul>
-                          <li><a>Địa chỉ: 172 Quán Thánh, Hà Nội</a></li>
-                          <li><a>Điện thoại: 0126.779.5050</a></li>
-                          <li><a>Email: Quantri.Bananashop@Gmail.Com</a></li>
-                          <li><a>Mở cửa: 10h30 -21h00 các ngày trong tuần</a></li>
-                      </ul>
+                        
                     </div>
                     <div class="col-md-3">
                         <h5>Facebook</h5>
                          <div id="fb-root"></div>                                
-                         <script>                                    
-                         (function (d, s, id) {                                        
-                          var js, fjs = d.getElementsByTagName(s)[0];                                        
-                          if (d.getElementById(id)) return;                                        
-                          js = d.createElement(s); js.id = id;                                        
-                          js.src = "http://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.3";                                        
-                          fjs.parentNode.insertBefore(js, fjs);                                    }
-                          (document, 'script', 'facebook-jssdk'));                                </script>                                <div class="fb-page" data-href="https://www.facebook.com/bananashopsaigon"                                     data-width="500" data-height="500" data-hide-cover="false" data-show-facepile="false"                                     data-show-posts="false"></div>
+                        <div id="fb-root"></div>
+                        <script>(function(d, s, id) {
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) return;
+                          js = d.createElement(s); js.id = id;
+                          js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5&appId=928433523918885";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk'));</script>                                
+                        <div class="fb-page" data-href="https://www.facebook.com/gabishoponline/" data-tabs="timeline" data-height="200px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/gabishoponline/"><a href="https://www.facebook.com/gabishoponline/">Gabi Shop</a></blockquote></div></div>
                     <span> Website được thiết kế bởi <a href="#" target="_blank" title="" alt="">Cao Tùng</a> </span>
                   </div>
           </div>
