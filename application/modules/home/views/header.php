@@ -156,12 +156,7 @@
         ?>
                   </li>
                   <?php }} ?>
-                  <!--li><a href="http://bananashop.com.vn/quan">Quần</a></li>
-                  <li><a href="http://bananashop.com.vn/giay">Giầy</a></li>
-                  <li><a href="http://bananashop.com.vn/so-mi">Sơ Mi</a></li>
-                  <li><a href="http://bananashop.com.vn/vest">Vest</a></li>
-                  <li><a href="http://bananashop.com.vn/ao-len-det">Áo len dệt</a></li-->
-                  <li><a href="http://bananashop.com.vn/lien-he">Liên hệ</a></li>
+                  <li><a href="<?php echo base_url(); ?>lien-he">Liên hệ</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
