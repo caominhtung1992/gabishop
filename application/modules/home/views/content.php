@@ -350,9 +350,10 @@
 
       <div id="Render-Body" class="container">
         <div id="slick-slide">
-          <img width="960" height="640" src="http://bananashop.com.vn/public/admin/images/slide-32.jpg" />
-          <img width="960" height="640" src="http://bananashop.com.vn/public/admin/images/slide-12.jpg" />
-          <img width="960" height="640" src="http://bananashop.com.vn/public/admin/images/slide-21.jpg" />        
+          <img width="960" height="640" src="<?php echo base_url(); ?>public/images/slide1.jpg" />
+          <img width="960" height="640" src="<?php echo base_url(); ?>public/images/slide2.png" />
+          <img width="960" height="640" src="<?php echo base_url(); ?>public/images/slide3.jpg" />
+          <img width="960" height="640" src="<?php echo base_url(); ?>public/images/slide4.jpg" />      
         </div>
         <div class="list-product">
            <div class="break">  

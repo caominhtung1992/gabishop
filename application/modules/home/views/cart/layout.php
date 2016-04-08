@@ -22,12 +22,8 @@
 </head>
 
 <body>
-<div id="wrap">
-    <div class="wrap_content">
-		<?php $this->load->view("header");?>
-        <?php $this->load->view("cart/content"); ?>
-        <?php $this->load->view("footer"); ?>
-    </div>
-</div>
+	<?php $this->load->view("header");?>
+    <?php $this->load->view("cart/content"); ?>
+    <?php $this->load->view("footer"); ?>
 </body>
 </html>

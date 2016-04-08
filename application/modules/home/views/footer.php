@@ -271,9 +271,9 @@
                   <div class="col-md-3">
                     <h5>Liên Hệ</h5>
                     <ul>
-                        <li><a>Điện thoại: 0167.564.1992</a></li>
-                        <li><a>Email: caominhtung64@Gmail.Com</a></li>
-                        <li><a>skype: Quantri.Bananashop@Gmail.Com</a></li>
+                        <li><a>Điện thoại: 0989.636.097</a></li>
+                        <li><a>Huyền </a></li>
+                        <li><a>skype: huyenvt3</a></li>
                         <li><a>Mở cửa: 9h30 -21h30 các ngày trong tuần</a></li>
                     </ul>
                   </div>
@@ -282,7 +282,7 @@
                     <ul>
                         <li><a>Điện thoại: 0167.564.1992</a></li>
                         <li><a>Email: caominhtung64@Gmail.Com</a></li>
-                        <li><a>skype: Quantri.Bananashop@Gmail.Com</a></li>
+                        <li><a>skype: caominhtung1992</a></li>
                         <li><a>Mở cửa: 9h30 -21h30 các ngày trong tuần</a></li>
                     </ul>
                   </div>

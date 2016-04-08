@@ -1,7 +1,4 @@
-<div class="content_full">
-<?php $this->load->view("column_left"); ?>
-
-<div class="column_right">
+<div id="Render-Body" class="container">
   <div id="location"><!--i class="bg icon_home"></i--><a href="/" title="Trang chủ">Trang chủ</a> » <a href="javascript:void(0)" title="Liên hệ">Liên hệ</a></div>
   <div class="clear"></div>
   <div class="box_column_right">
@@ -91,5 +88,4 @@
     </div>
   </div>
   <!--box_column_right--> 
-</div>
 </div>

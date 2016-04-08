@@ -136,7 +136,7 @@
             <span class="iconnew" title="New">&nbsp;</span>
         </a>
         <a href="<?php echo base_url()."".$value['pro_name_rewrite']."/p".$value['pro_id'].".html"; ?>">
-            <p class="name-product"><?php $value['pro_name']; ?></p>
+            <p class="name-product"><?php echo $value['pro_name']; ?></p>
         </a>
         <span class="price"><?php echo @number_format($value['pro_price'])." đ";  ?></span>
       </div>
